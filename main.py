@@ -1,4 +1,3 @@
-from datetime import datetime
 # первое
 number1 = [1, 2, 3]                                 #числа
 number2 = [i * 2 for i in number1]                  #умножение на 2
@@ -20,10 +19,6 @@ else:                                              #если нет пробел
     print(list)                                    #ответ
 
 
-
-# четвертое
-year1 = datetime.now().year                       
-year2 = 1900
-answer = year1 - year2
-for i in range(answer + 1):
-        print(year2 + i)
+#четвертое
+for i in range(1900, 2021):           # диапозон годов
+    print(i)                          # вывод
